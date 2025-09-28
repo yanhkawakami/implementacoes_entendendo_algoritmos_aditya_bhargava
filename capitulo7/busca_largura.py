@@ -1,4 +1,8 @@
 # Busca em Largura
+# Definição: Algoritmo para percorrer ou buscar elementos em uma estrutura de dados em forma de grafo ou árvore, explorando todos os vizinhos de um nó antes de avançar para os próximos níveis.
+# Aplicações: Encontrar o caminho mais curto em grafos não ponderados, redes sociais, jogos, inteligência artificial.
+# Respostas: se há um caminho entre dois nós, o caminho mais curto em termos de número de arestas.
+# Estrutura de Dados Utilizada: Fila (FIFO - First In, First Out).
 # Tempo de execução: O(V + E) onde V é o número de vértices e E é o número de arestas no grafo.
 from collections import deque
 import grafos
